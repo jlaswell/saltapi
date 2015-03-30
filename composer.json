@@ -1,5 +1,5 @@
 {
-    "name": "naegelin/saltapi",
+    "name": "jlaswell/saltapi",
     "description": "This is a PHP client for talking to the restful endpoint of Salt Stack",
     "minimum-stability": "stable",
     "license": "MIT",
@@ -7,17 +7,21 @@
         {
             "name": "Chris Naegelin",
             "email": "naegelin@gmail.com"
-        }
+        },
+      {
+        "name": "John Laswell",
+        "email": "john.n.laswell@gmail.com"
+      }
     ],
     "repositories": [
         {
-            "url": "https://github.com/naegelin/saltapi",
+            "url": "https://github.com/jlaswell/saltapi",
             "type": "vcs"
         }
     ],
     "autoload": {
-        "psr-0" : {
-            "naegelin\\SaltClient" : "src"
+        "psr-4" : {
+            "Naegelin\\SaltClient\\" : "src/"
         }
     }
 }
